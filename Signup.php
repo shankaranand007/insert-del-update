@@ -1,12 +1,12 @@
 <?php 
 	include_once("include.php");
 	
-	
-	$fname = $_POST['fname'];
-	$lname = $_POST['lname'];
-	$pass = $_POST['pass'];
-	$age = $_POST['age'];
-	$dob = $_POST['dob'];
+	$id = isset($_POST['id']) ? $_POST['id'] : '';
+	$id = isset($_POST['fname']) ? $_POST['fname'] : '';
+	$id = isset($_POST['lname']) ? $_POST['lname'] : '';
+	$id = isset($_POST['pass']) ? $_POST['pass'] : '';
+	$id = isset($_POST['age']) ? $_POST['age'] : '';
+	$id = isset($_POST['dob']) ? $_POST['dob'] : '';
 
 
 	if (isset($fname)) {
